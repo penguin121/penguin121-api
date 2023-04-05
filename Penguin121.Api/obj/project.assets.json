@@ -476,19 +476,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\holts\\.nuget\\packages\\": {}
+    "/home/codespace/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\holts\\repos\\penguin121-api\\Penguin121.Api\\Penguin121.Api.csproj",
+      "projectUniqueName": "/workspaces/penguin121-api/Penguin121.Api/Penguin121.Api.csproj",
       "projectName": "Penguin121.Api",
-      "projectPath": "C:\\Users\\holts\\repos\\penguin121-api\\Penguin121.Api\\Penguin121.Api.csproj",
-      "packagesPath": "C:\\Users\\holts\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\holts\\repos\\penguin121-api\\Penguin121.Api\\obj\\",
+      "projectPath": "/workspaces/penguin121-api/Penguin121.Api/Penguin121.Api.csproj",
+      "packagesPath": "/home/codespace/.nuget/packages/",
+      "outputPath": "/workspaces/penguin121-api/Penguin121.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\holts\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/codespace/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -500,8 +500,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\holts\\repos\\penguin121-api\\Penguin121.Domain\\Penguin121.Domain.csproj": {
-              "projectPath": "C:\\Users\\holts\\repos\\penguin121-api\\Penguin121.Domain\\Penguin121.Domain.csproj"
+            "/workspaces/penguin121-api/Penguin121.Domain/Penguin121.Domain.csproj": {
+              "projectPath": "/workspaces/penguin121-api/Penguin121.Domain/Penguin121.Domain.csproj"
             }
           }
         }
@@ -544,7 +544,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.201/sdk/7.0.201/RuntimeIdentifierGraph.json"
       }
     }
   }

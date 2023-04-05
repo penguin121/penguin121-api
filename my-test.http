@@ -1,3 +1,21 @@
-get http://localhost:5221/catalog
+### original
+### get http://localhost:5299/catalog
+
+### GET '/catalog' root with https
+GET https://localhost:7250/catalog
+
+### GET '/catalog' root with http
+GET http://localhost:5299/catalog
+
+
+### POST a new Item to the Catalog collection
+POST https://localhost:7250/catalog
+Content-Type: application/json
+{
+    "name": shoes",
+    "description": "Ohio State shoes",
+    "brand": "Nike",
+    "price": 129.99
+}
 
 
