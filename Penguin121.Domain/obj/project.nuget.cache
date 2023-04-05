@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dsdEklWoh6j8Hcpw97B0ULc1MjpD9Iyw+qMwvZ2mFNdawIMbHtBLqxK/peMnbcoXFEvh+y4/9WHq5IuLxxcDFA==",
+  "dgSpecHash": "wLDZ4jB8aLF0OpqcKPSkhpLHqfrS2/1948C1W2a0Suqygz7qVt5oQPkugtAAEGb0MHY++ghjvpXMhB4Dvv/y7g==",
   "success": true,
-  "projectFilePath": "/workspaces/penguin121-api/Penguin121.Domain/Penguin121.Domain.csproj",
+  "projectFilePath": "C:\\Users\\holts\\repos\\penguin121-api\\Penguin121.Domain\\Penguin121.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
