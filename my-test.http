@@ -1,5 +1,4 @@
-### original
-### get http://localhost:5299/catalog
+get http://localhost:5221/catalog
 
 ### GET '/catalog' root with https
 GET https://localhost:7250/catalog
