@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Penguin121.Domain\Penguin121.Domain.csproj" />
+    <ProjectReference Include="..\penguin121-api.Data\penguin121-api.Data.csproj" />
   </ItemGroup>
 
 </Project>
