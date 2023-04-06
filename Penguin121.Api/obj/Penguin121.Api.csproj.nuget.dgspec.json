@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/collinmcgough/Documents/GitHub/penguin121-api/Penguin121.Api/Penguin121.Api.csproj": {}
+    "C:\\Users\\holts\\repos\\penguin121-api\\Penguin121.Api\\Penguin121.Api.csproj": {}
   },
   "projects": {
-    "/Users/collinmcgough/Documents/GitHub/penguin121-api/penguin121-api.Data/penguin121-api.Data.csproj": {
+    "C:\\Users\\holts\\repos\\penguin121-api\\penguin121-api.Data\\penguin121-api.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/collinmcgough/Documents/GitHub/penguin121-api/penguin121-api.Data/penguin121-api.Data.csproj",
+        "projectUniqueName": "C:\\Users\\holts\\repos\\penguin121-api\\penguin121-api.Data\\penguin121-api.Data.csproj",
         "projectName": "penguin121-api.Data",
-        "projectPath": "/Users/collinmcgough/Documents/GitHub/penguin121-api/penguin121-api.Data/penguin121-api.Data.csproj",
-        "packagesPath": "/Users/collinmcgough/.nuget/packages/",
-        "outputPath": "/Users/collinmcgough/Documents/GitHub/penguin121-api/penguin121-api.Data/obj/",
+        "projectPath": "C:\\Users\\holts\\repos\\penguin121-api\\penguin121-api.Data\\penguin121-api.Data.csproj",
+        "packagesPath": "C:\\Users\\holts\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\holts\\repos\\penguin121-api\\penguin121-api.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/collinmcgough/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\holts\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/collinmcgough/Documents/GitHub/penguin121-api/Penguin121.Domain/Penguin121.Domain.csproj": {
-                "projectPath": "/Users/collinmcgough/Documents/GitHub/penguin121-api/Penguin121.Domain/Penguin121.Domain.csproj"
+              "C:\\Users\\holts\\repos\\penguin121-api\\Penguin121.Domain\\Penguin121.Domain.csproj": {
+                "projectPath": "C:\\Users\\holts\\repos\\penguin121-api\\Penguin121.Domain\\Penguin121.Domain.csproj"
               }
             }
           }
@@ -57,21 +57,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/collinmcgough/Documents/GitHub/penguin121-api/Penguin121.Api/Penguin121.Api.csproj": {
+    "C:\\Users\\holts\\repos\\penguin121-api\\Penguin121.Api\\Penguin121.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/collinmcgough/Documents/GitHub/penguin121-api/Penguin121.Api/Penguin121.Api.csproj",
+        "projectUniqueName": "C:\\Users\\holts\\repos\\penguin121-api\\Penguin121.Api\\Penguin121.Api.csproj",
         "projectName": "Penguin121.Api",
-        "projectPath": "/Users/collinmcgough/Documents/GitHub/penguin121-api/Penguin121.Api/Penguin121.Api.csproj",
-        "packagesPath": "/Users/collinmcgough/.nuget/packages/",
-        "outputPath": "/Users/collinmcgough/Documents/GitHub/penguin121-api/Penguin121.Api/obj/",
+        "projectPath": "C:\\Users\\holts\\repos\\penguin121-api\\Penguin121.Api\\Penguin121.Api.csproj",
+        "packagesPath": "C:\\Users\\holts\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\holts\\repos\\penguin121-api\\Penguin121.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/collinmcgough/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\holts\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -83,11 +83,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/collinmcgough/Documents/GitHub/penguin121-api/penguin121-api.Data/penguin121-api.Data.csproj": {
-                "projectPath": "/Users/collinmcgough/Documents/GitHub/penguin121-api/penguin121-api.Data/penguin121-api.Data.csproj"
+              "C:\\Users\\holts\\repos\\penguin121-api\\penguin121-api.Data\\penguin121-api.Data.csproj": {
+                "projectPath": "C:\\Users\\holts\\repos\\penguin121-api\\penguin121-api.Data\\penguin121-api.Data.csproj"
               },
-              "/Users/collinmcgough/Documents/GitHub/penguin121-api/Penguin121.Domain/Penguin121.Domain.csproj": {
-                "projectPath": "/Users/collinmcgough/Documents/GitHub/penguin121-api/Penguin121.Domain/Penguin121.Domain.csproj"
+              "C:\\Users\\holts\\repos\\penguin121-api\\Penguin121.Domain\\Penguin121.Domain.csproj": {
+                "projectPath": "C:\\Users\\holts\\repos\\penguin121-api\\Penguin121.Domain\\Penguin121.Domain.csproj"
               }
             }
           }
@@ -130,21 +130,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/collinmcgough/Documents/GitHub/penguin121-api/Penguin121.Domain/Penguin121.Domain.csproj": {
+    "C:\\Users\\holts\\repos\\penguin121-api\\Penguin121.Domain\\Penguin121.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/collinmcgough/Documents/GitHub/penguin121-api/Penguin121.Domain/Penguin121.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\holts\\repos\\penguin121-api\\Penguin121.Domain\\Penguin121.Domain.csproj",
         "projectName": "Penguin121.Domain",
-        "projectPath": "/Users/collinmcgough/Documents/GitHub/penguin121-api/Penguin121.Domain/Penguin121.Domain.csproj",
-        "packagesPath": "/Users/collinmcgough/.nuget/packages/",
-        "outputPath": "/Users/collinmcgough/Documents/GitHub/penguin121-api/Penguin121.Domain/obj/",
+        "projectPath": "C:\\Users\\holts\\repos\\penguin121-api\\Penguin121.Domain\\Penguin121.Domain.csproj",
+        "packagesPath": "C:\\Users\\holts\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\holts\\repos\\penguin121-api\\Penguin121.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/collinmcgough/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\holts\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -183,7 +183,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
