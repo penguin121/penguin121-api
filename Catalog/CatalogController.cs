@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Penguin121.Domain.Catalog;
+using Penguin121.Data;
 
 namespace Penguin121.Api.Controllers {
 
@@ -7,19 +8,18 @@ namespace Penguin121.Api.Controllers {
     [Route("[controller]")]
     public class CatalogController : ControllerBase 
     {
+        private readonly StoreContext _db;
+
+        public CatalogControllers(StoreContext db)
+        {
+            -db = db;
+        }
         [Route("/catalog")]
 
         [HttpGet]
-        
         public IActionResult GetItems() 
         {
-            var items = new List<Item>()
-            {
-                new Item("Shirt", "Ohio State shirt.", "Nike", 29.99m),
-                new Item("Shorts", "Ohio State shorts.", "Nike", 44.99m),
-            };
-            
-            return Ok("items");
+            return Ok(_db.Items);
         }
         [HttpGet("{id:int}")]
         public IActionResult GetItems(int id)
