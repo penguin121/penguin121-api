@@ -27,14 +27,10 @@
           "SQLitePCLRaw.core": "2.1.4"
         },
         "compile": {
-          "lib/net6.0/Microsoft.Data.Sqlite.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/Microsoft.Data.Sqlite.dll": {}
         },
         "runtime": {
-          "lib/net6.0/Microsoft.Data.Sqlite.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/Microsoft.Data.Sqlite.dll": {}
         }
       },
       "Microsoft.EntityFrameworkCore/7.0.4": {
@@ -47,14 +43,10 @@
           "Microsoft.Extensions.Logging": "7.0.0"
         },
         "compile": {
-          "lib/net6.0/Microsoft.EntityFrameworkCore.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/Microsoft.EntityFrameworkCore.dll": {}
         },
         "runtime": {
-          "lib/net6.0/Microsoft.EntityFrameworkCore.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/Microsoft.EntityFrameworkCore.dll": {}
         },
         "build": {
           "buildTransitive/net6.0/Microsoft.EntityFrameworkCore.props": {}
@@ -318,14 +310,10 @@
       "Microsoft.Extensions.Primitives/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/Microsoft.Extensions.Primitives.dll": {
-            "related": ".xml"
-          }
+          "lib/net7.0/Microsoft.Extensions.Primitives.dll": {}
         },
         "runtime": {
-          "lib/net7.0/Microsoft.Extensions.Primitives.dll": {
-            "related": ".xml"
-          }
+          "lib/net7.0/Microsoft.Extensions.Primitives.dll": {}
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
@@ -562,14 +550,10 @@
       "System.Text.Encodings.Web/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/System.Text.Encodings.Web.dll": {
-            "related": ".xml"
-          }
+          "lib/net7.0/System.Text.Encodings.Web.dll": {}
         },
         "runtime": {
-          "lib/net7.0/System.Text.Encodings.Web.dll": {
-            "related": ".xml"
-          }
+          "lib/net7.0/System.Text.Encodings.Web.dll": {}
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
@@ -587,14 +571,10 @@
           "System.Text.Encodings.Web": "7.0.0"
         },
         "compile": {
-          "lib/net7.0/System.Text.Json.dll": {
-            "related": ".xml"
-          }
+          "lib/net7.0/System.Text.Json.dll": {}
         },
         "runtime": {
-          "lib/net7.0/System.Text.Json.dll": {
-            "related": ".xml"
-          }
+          "lib/net7.0/System.Text.Json.dll": {}
         },
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
@@ -1624,19 +1604,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\holts\\.nuget\\packages\\": {}
+    "/home/codespace/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\holts\\repos\\penguin121-api\\Penguin121.Api\\Penguin121.Api.csproj",
+      "projectUniqueName": "/workspaces/penguin121-api/Penguin121.Api/Penguin121.Api.csproj",
       "projectName": "Penguin121.Api",
-      "projectPath": "C:\\Users\\holts\\repos\\penguin121-api\\Penguin121.Api\\Penguin121.Api.csproj",
-      "packagesPath": "C:\\Users\\holts\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\holts\\repos\\penguin121-api\\Penguin121.Api\\obj\\",
+      "projectPath": "/workspaces/penguin121-api/Penguin121.Api/Penguin121.Api.csproj",
+      "packagesPath": "/home/codespace/.nuget/packages/",
+      "outputPath": "/workspaces/penguin121-api/Penguin121.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\holts\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/codespace/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -1648,11 +1628,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\holts\\repos\\penguin121-api\\penguin121-api.Data\\penguin121-api.Data.csproj": {
-              "projectPath": "C:\\Users\\holts\\repos\\penguin121-api\\penguin121-api.Data\\penguin121-api.Data.csproj"
+            "/workspaces/penguin121-api/Penguin121.Domain/Penguin121.Domain.csproj": {
+              "projectPath": "/workspaces/penguin121-api/Penguin121.Domain/Penguin121.Domain.csproj"
             },
-            "C:\\Users\\holts\\repos\\penguin121-api\\Penguin121.Domain\\Penguin121.Domain.csproj": {
-              "projectPath": "C:\\Users\\holts\\repos\\penguin121-api\\Penguin121.Domain\\Penguin121.Domain.csproj"
+            "/workspaces/penguin121-api/penguin121-api.Data/penguin121-api.Data.csproj": {
+              "projectPath": "/workspaces/penguin121-api/penguin121-api.Data/penguin121-api.Data.csproj"
             }
           }
         }
@@ -1661,6 +1641,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1691,6 +1676,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -1699,7 +1698,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.303/RuntimeIdentifierGraph.json"
       }
     }
   }
